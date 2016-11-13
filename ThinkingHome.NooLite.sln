@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BD22917C-87BD-482D-9D79-8D1461454702}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6C078DFB-E333-43CE-9C4A-CA38336410C3}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ThinkingHome.NooLite", "src\ThinkingHome.NooLite\ThinkingHome.NooLite.xproj", "{6DEE416B-5121-4ACD-9D79-0826D0AA8C70}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ThinkingHome.NooLite.Console", "src\ThinkingHome.NooLite.Console\ThinkingHome.NooLite.Console.xproj", "{F47D7957-8B30-41CF-A82C-98EC98AA4A4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DEE416B-5121-4ACD-9D79-0826D0AA8C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DEE416B-5121-4ACD-9D79-0826D0AA8C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DEE416B-5121-4ACD-9D79-0826D0AA8C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DEE416B-5121-4ACD-9D79-0826D0AA8C70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47D7957-8B30-41CF-A82C-98EC98AA4A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47D7957-8B30-41CF-A82C-98EC98AA4A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47D7957-8B30-41CF-A82C-98EC98AA4A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47D7957-8B30-41CF-A82C-98EC98AA4A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DEE416B-5121-4ACD-9D79-0826D0AA8C70} = {BD22917C-87BD-482D-9D79-8D1461454702}
+		{F47D7957-8B30-41CF-A82C-98EC98AA4A4E} = {BD22917C-87BD-482D-9D79-8D1461454702}
+	EndGlobalSection
+EndGlobal
