@@ -14,7 +14,7 @@
       "type": "platform",
       "version": "1.0.1"
     },
-    "ThinkingHome.NooLite": "1.0.0-*"
+    "ThinkingHome.NooLite.DotNetCore": "1.0.0"
   },
 
   "publishOptions": {
