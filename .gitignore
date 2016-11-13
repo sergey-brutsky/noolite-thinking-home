@@ -1,3 +1,6 @@
 /.vs/ThinkingHome.NooLite/v14/.suo
 /.vs/restore.dg
 /src/ThinkingHome.NooLite/project.lock.json
+/.vs/config/applicationhost.config
+/src/ThinkingHome.NooLite.WebServer/appsettings.json
+/src/ThinkingHome.NooLite.WebServer/project.lock.json
