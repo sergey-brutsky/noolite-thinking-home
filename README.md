@@ -1,9 +1,11 @@
 # Noolite Thinking Home
-This is a port of this project https://code.google.com/archive/p/th-noolite/ for .net core platform
+This is a c# library that provides API for [Noolite gateway](https://www.noo.com.by/Ethernet_PR1132.html)
+
+**Warning**: Now only temperature and humidity sensors supported
 
 Example of usage 
 
-```cs
+```csharp
 public class Program
 {
 	public static void Main(string[] args)
