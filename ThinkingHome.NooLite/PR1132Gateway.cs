@@ -31,8 +31,10 @@ namespace ThinkingHome.NooLite
                 var strState = doc.XPathSelectElement("response/snt" + i).Value;
 
                 var data = new Pr1132SensorData { State = (SensorState)Convert.ToInt32(strState) };
-                
-                if (float.TryParse(strT, out float t)) data.Temperature = t;
+
+                if (!string.IsNullOrEmpty(strT)) strT = strT.Replace(",", ".");
+
+                if (float.TryParse(strT, NumberStyles.Any, CultureInfo.InvariantCulture, out float t)) data.Temperature = t;
 
                 if (int.TryParse(strH, out int h)) data.Humidity = h;
 

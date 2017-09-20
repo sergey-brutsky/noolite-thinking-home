@@ -1,5 +1,4 @@
-﻿using System.IO;
-using System.Linq;
+﻿using System.Linq;
 using System.Net;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -20,14 +19,13 @@ namespace ThinkingHome.NooLiteWebServer
         public static void Main(string[] args)
         {
             _config = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile(AppsettingsJson)
                 .Build();
 
             new WebHostBuilder()
                 .UseKestrel()
                 .UseUrls(_config["listen"])
-                .Configure(appbuilder => appbuilder.Run(async context =>
+                .Configure(app => app.Run(async context =>
                 {
                     if (context.Request.Path == _config["sensors-url"])
                     {
