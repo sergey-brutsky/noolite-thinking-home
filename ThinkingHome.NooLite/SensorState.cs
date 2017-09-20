@@ -1,4 +1,4 @@
-﻿namespace ThinkingHome.NooLite.PR1132
+﻿namespace ThinkingHome.NooLite
 {
 	public enum SensorState
 	{
